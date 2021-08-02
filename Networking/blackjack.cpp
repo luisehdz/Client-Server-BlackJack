@@ -10,8 +10,8 @@ struct Card
 {
 	string suit;
 	string rank;
-	int pointValue;
-	bool inDeck;
+	int pointValue = 0;
+	bool inDeck = false;
 }Deck[53];
 
 void BlackJack::shuffle()
